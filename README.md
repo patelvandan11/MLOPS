@@ -5,15 +5,14 @@ Welcome to the **Ultimate MLOps Resource Repository**! This repository is a one-
 ---
 
 ## 📖 **Table of Contents**
-
-1. [What is MLOps?](#what-is-mlops)
-2. [Why MLOps?](#why-mlops)
-3. [Key Concepts](#key-concepts)
-4. [Tools and Frameworks](#tools-and-frameworks)
-5. [Guides and Tutorials](#guides-and-tutorials)
-6. [Best Practices](#best-practices)
-7. [Resources](#resources)
-8. [Contributions](#contributions)
+1. [What is MLOps?](#-what-is-mlops)
+2. [Why MLOps?](#-why-mlops)
+3. [Key Concepts](#-key-concepts)
+4. [Tools and Frameworks](#-tools-and-frameworks)
+5. [Guides and Tutorials](#-guides-and-tutorials)
+6. [Best Practices](#-best-practices)
+7. [Resources](#-resources)
+8. [Contributions](#-contributions)
 
 ---
 
@@ -52,11 +51,12 @@ MLOps (Machine Learning Operations) is the practice of integrating machine learn
 
 | **Category**          | **Tools/Frameworks**                                  |
 |-----------------------|-----------------------------------------------------|
-| **Version Control**   | Git                    |
+| **Version Control**   | Git, DVC (Data Version Control)                     |
 | **CI/CD Pipelines**   | Jenkins, GitHub Actions, GitLab CI/CD              |
 | **Model Serving**     | TensorFlow Serving, TorchServe, BentoML            |
-| **Monitoring**        | MLflow                 |
-| **Infrastructure**    | Kubernetes, Docker                      |
+| **Monitoring**        | Prometheus, Grafana, MLflow, WhyLabs               |
+| **Orchestration**     | Airflow, Kubeflow, Dagster                         |
+| **Infrastructure**    | Kubernetes, Docker, Terraform                      |
 | **Feature Stores**    | Feast, Tecton                                      |
 | **Experiment Tracking**| MLflow, Weights & Biases (W&B)                     |
 | **Data Validation**   | Great Expectations, TensorFlow Data Validation     |
@@ -96,16 +96,16 @@ MLOps (Machine Learning Operations) is the practice of integrating machine learn
 ## 📂 **Resources**
 
 ### 📘 Books
-- [Hands On ML]()
+- [Practical MLOps](https://www.oreilly.com/library/view/practical-mlops/)
 - [Building Machine Learning Pipelines](https://www.oreilly.com/library/view/building-machine-learning-pipelines/)
 
-<!-- ### 📝 Articles and Blogs -->
-<!-- - [Google Cloud MLOps Guide](https://cloud.google.com/solutions/what-is-mlops)
-- [Microsoft MLOps Overview](https://learn.microsoft.com/en-us/azure/machine-learning/concept-model-management-and-deployment) -->
-<!-- 
+### 📝 Articles and Blogs
+- [Google Cloud MLOps Guide](https://cloud.google.com/solutions/what-is-mlops)
+- [Microsoft MLOps Overview](https://learn.microsoft.com/en-us/azure/machine-learning/concept-model-management-and-deployment)
+
 ### 🎥 Videos and Courses
 - [Coursera - MLOps Specialization](https://www.coursera.org/specializations/machine-learning-engineering-for-production-mlops)
-- [YouTube - Full MLOps Playlist](https://www.youtube.com/playlist?list=PLkPWHG7ZrjI2nwcuF_qcKfST7jnf2OXGx) -->
+- [YouTube - Full MLOps Playlist](https://www.youtube.com/playlist?list=PLkPWHG7ZrjI2nwcuF_qcKfST7jnf2OXGx)
 
 ---
 
@@ -122,8 +122,8 @@ We welcome contributions from the community! Here’s how you can help:
 ## 📞 **Contact**
 
 For any queries or feedback, please reach out via:
-- Email: [vandan11patel@gmail.com](mailto:your-email@example.com)
-<!-- - GitHub Issues: [Raise an Issue](https://github.com/your-repo/issues) -->
+- Email: [vandan11patel@gmail.com](mailto:[vandan11patel@gmail.com)
+
 
 ---
 
